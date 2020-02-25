@@ -4,6 +4,7 @@ public class Study {
 
 	private String name;
 	private String sex;
+	private Integer age;
 	
 	public String getName() {
 		return name;
@@ -19,6 +20,14 @@ public class Study {
 
 	public void setSex(String sex) {
 		this.sex = sex;
+	}
+
+	public Integer getAge() {
+		return age;
+	}
+
+	public void setAge(Integer age) {
+		this.age = age;
 	}
 	
 }
