@@ -6,6 +6,7 @@ public class Study {
 	private String sex;
 	private Integer age;
 	private Integer address;
+	private Integer idCard;
 	
 	public String getName() {
 		return name;
@@ -37,6 +38,14 @@ public class Study {
 
 	public void setAddress(Integer address) {
 		this.address = address;
+	}
+
+	public Integer getIdCard() {
+		return idCard;
+	}
+
+	public void setIdCard(Integer idCard) {
+		this.idCard = idCard;
 	}
 	
 }
