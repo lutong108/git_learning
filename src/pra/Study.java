@@ -7,6 +7,7 @@ public class Study {
 	private Integer age;
 	private Integer address;
 	private Integer idCard;
+	private String company;
 	
 	public String getName() {
 		return name;
@@ -46,6 +47,14 @@ public class Study {
 
 	public void setIdCard(Integer idCard) {
 		this.idCard = idCard;
+	}
+
+	public String getCompany() {
+		return company;
+	}
+
+	public void setCompany(String company) {
+		this.company = company;
 	}
 	
 }
