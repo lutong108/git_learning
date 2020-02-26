@@ -5,6 +5,7 @@ public class Study {
 	private String name;
 	private String sex;
 	private Integer age;
+	private Integer address;
 	
 	public String getName() {
 		return name;
@@ -28,6 +29,14 @@ public class Study {
 
 	public void setAge(Integer age) {
 		this.age = age;
+	}
+
+	public Integer getAddress() {
+		return address;
+	}
+
+	public void setAddress(Integer address) {
+		this.address = address;
 	}
 	
 }
