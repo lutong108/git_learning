@@ -8,6 +8,7 @@ public class Study {
 	private Integer address;
 	private Integer idCard;
 	private String company;
+	private String home;
 	
 	public String getName() {
 		return name;
@@ -55,6 +56,14 @@ public class Study {
 
 	public void setCompany(String company) {
 		this.company = company;
+	}
+
+	public String getHome() {
+		return home;
+	}
+
+	public void setHome(String home) {
+		this.home = home;
 	}
 	
 }
