@@ -13,5 +13,13 @@ public class House {
 	public void setAddress(String address) {
 		Address = address;
 	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 	
 }
