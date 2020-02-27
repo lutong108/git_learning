@@ -4,6 +4,8 @@ public class House {
 
 	private String Address;
 
+	private String name;
+	
 	public String getAddress() {
 		return Address;
 	}
