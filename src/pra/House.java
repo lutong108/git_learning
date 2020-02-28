@@ -12,5 +12,13 @@ public class House {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	public String getBelong() {
+		return belong;
+	}
+
+	public void setBelong(String belong) {
+		this.belong = belong;
+	}
 	
 }
