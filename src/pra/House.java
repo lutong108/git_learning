@@ -6,6 +6,8 @@ public class House {
 
 	private String name;
 	
+	private Integer time;
+	
 	public String getAddress() {
 		return Address;
 	}
