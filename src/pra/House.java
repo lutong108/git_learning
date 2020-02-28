@@ -5,6 +5,7 @@ public class House {
 	private String Address;
 	private Integer time;
 	private String belong;
+	private String show;
 	public String getName() {
 		return name;
 	}
