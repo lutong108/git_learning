@@ -3,6 +3,7 @@ package pra;
 public class House {
 
 	private String name;
+	private String belong;
 
 	public String getName() {
 		return name;
