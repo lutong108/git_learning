@@ -1,4 +1,4 @@
-package com.chinacreator.computer;
+package com.chapter7.computer;
 
 import java.util.HashMap;
 import java.util.LinkedList;

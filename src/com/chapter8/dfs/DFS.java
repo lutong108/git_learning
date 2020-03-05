@@ -1,4 +1,4 @@
-package com.chinacreator.dnf;
+package com.chapter8.dfs;
 
 
 /**
@@ -6,7 +6,7 @@ package com.chinacreator.dnf;
  * @author Administrator
  *
  */
-public class DNF {
+public class DFS {
 	
 	//物品件数n，背包容量v，最大价值maxValue
 	private static Integer n=5,v=8,maxValue=0;
