@@ -37,15 +37,14 @@ public class SynchronizedTest {
             @Override
             public void run() {
                 test.method1();
-                test.method2();
             }
         }).start();
 
-        /*new Thread(new Runnable() {
+        new Thread(new Runnable() {
             @Override
             public void run() {
-                test.method1();
+                test2.method1();
             }
-        }).start();*/
+        }).start();
     }
 }
